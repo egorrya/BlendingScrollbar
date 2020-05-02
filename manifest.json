@@ -1,7 +1,7 @@
 {
   "content_scripts": [
     {
-      "css": ["css/scrollbar.css"],
+      "css": ["css/scrollbar.min.css"],
       "matches": ["<all_urls>"],
       "run_at": "document_idle"
     }
