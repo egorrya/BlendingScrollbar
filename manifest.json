@@ -1,0 +1,20 @@
+{
+  "content_scripts": [
+    {
+      "css": ["css/scrollbar.css"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_idle"
+    }
+  ],
+  "description": "Minimalistic beautiful scrollbar, designed to blend background with page contents. Implemented only by CSS not by JavaScript.",
+  "icons": {
+    "128": "img/128.png",
+    "16": "img/16.png",
+    "48": "img/48.png"
+  },
+  "manifest_version": 2,
+  "name": "Blending Scrollbar",
+  "short_name": "Blending Scrollbar",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.1"
+}
